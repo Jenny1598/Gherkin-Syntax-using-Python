@@ -1,0 +1,10 @@
+Feature : User Authentication
+Scenario:
+	
+	Given: the user is already registered to the website
+
+	Given the user is on the login page
+	When the user inputs the correct credentials
+	And the user clicked the Login button
+	Then the user should be authenticated
+	And the user will be redirected to the form submission page
